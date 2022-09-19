@@ -1,6 +1,16 @@
 const API_KEY = "a8c4d6705a52ffada4a68f2ae28a2f1c";
 const BASE_PATH = "https://api.themoviedb.org/3";
 
+// interface IMovieConfig {
+//   API_KEY: string;
+//   BASE_PATH: string;
+// }
+
+// const moviewConfig = {
+//   API_KEY: process.env.MOVIE_API_KEY!,
+//   BASE_PATH: "https://api.themoviedb.org/3",
+// };
+
 interface IMedia {
   media_type: string;
 }
